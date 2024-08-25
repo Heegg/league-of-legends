@@ -1,5 +1,6 @@
+import Footer from './Footer';
 import Container from 'react-bootstrap/Container';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import lolLogo from './logos/lolLogo.png'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,7 +8,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Navbar expand="md" className="bg-body-tertiary">
+      <Navbar 
+        bg="dark" 
+        data-bs-theme="dark"
+        expand="md" 
+        className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">
             <img 
@@ -21,13 +26,14 @@ function App() {
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#champions">Champions</Nav.Link>
-              <Nav.Link href="#favorite">My Favorite</Nav.Link>
-              <Nav.Link href="#addnew">Add New Champions</Nav.Link>
+              <Nav.Link href="#mychampions">My Champions</Nav.Link>
+              <Nav.Link href="#addchampions">Add Champions</Nav.Link>
               <Nav.Link href="#dwgskins">DWG Skins</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
-    </Navbar>
+      </Navbar>
+      <Footer />
     </div>
   );
 }
