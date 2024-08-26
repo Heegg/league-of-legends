@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
+import Header from './components/Header';
 import ChampionsList from './components/ChampionsList';
 import MyChampions from './components/MyChampions';
 import AddChampions from './components/NewChampion';
 import Skins from './components/DamwonSkins';
-import Footer from './Footer';
+import Footer from './components/Footer';
 
 import Container from 'react-bootstrap/Container';
 import lolLogo from './logos/lolLogo.png';
@@ -42,10 +43,30 @@ function App() {
           </Container>
         </Navbar>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/champions" element={<ChampionsList />} />
-          <Route path="/mychampions" element={<MyChampions />} />
-          <Route path="/addchampions" element={<AddChampions />} />
+          <Route path="/" element={
+            <>
+              <Header/>
+              <Home />        
+            </>
+          }/>
+          <Route path="/champions" element={
+            <>
+              <Header/>
+              <ChampionsList />
+            </>
+          }/>
+          <Route path="/mychampions" element={
+            <>
+              <Header/>
+              <MyChampions />
+            </>
+          }/>
+          <Route path="/addchampions" element={
+            <>
+              <Header/>
+              <AddChampions />
+            </>
+          }/>
           <Route path="/dwgskins" element={<Skins />} />
         </Routes>
         <Footer />
