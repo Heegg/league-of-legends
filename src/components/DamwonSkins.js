@@ -3,7 +3,7 @@ import React from 'react'
 const DWGSkins = () => {
   return (
     <div>
-      DWGSkinsssss
+      DWGSkins
     </div>
   )
 }
