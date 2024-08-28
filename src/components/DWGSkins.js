@@ -24,13 +24,14 @@ const DWGSkins = () => {
 
   return (
     <div className='damwonSkins'>
-            <p onClick={handleDWLogo}>
-              {flipDWLogo ? <img src={logoDWPurple} className='dwLogo' alt=''/> : <img src={logoDWGold} className='dwLogo' alt=''/>}
-            </p>  
+      <p onClick={handleDWLogo}>
+        {flipDWLogo ? <img src={logoDWPurple} className='DWPurpleLogo' alt=''/> : 
+        <img src={logoDWGold} className='DWGoldLogo' alt=''/>}
+      </p>  
       <hr/>
         <b><h1>Damwon Gaming 2020 Worlds Skins</h1></b>
       <hr/>
-      <div>
+      <div className='DWGCardLists'>
         {DWGInfosCard}
       </div>
     </div>

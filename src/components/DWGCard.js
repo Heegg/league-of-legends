@@ -1,6 +1,14 @@
 import { useState } from 'react'
 import './DWGCard.css'
 
+const DWGCard = ({ DWGInfo }) => {
+
+  const [showInfoLogo, setShowInfoLogo] = useState(true)
+
+  const toggleCardLogo = () => {
+    setShowInfoLogo(showInfoLogo => !showInfoLogo)
+  }
+
 const Front = ({ DWGInfo }) => {
     return (
       <div>
@@ -19,14 +27,6 @@ const Front = ({ DWGInfo }) => {
         <h3>{DWGInfo.backname}</h3>
       </div>
     )
-  }
-
-const DWGCard = ({ DWGInfo }) => {
-
-  const [showInfoLogo, setShowInfoLogo] = useState(true)
-
-  const toggleCardLogo = () => {
-    setShowInfoLogo(showInfoLogo => !showInfoLogo)
   }
 
 return (

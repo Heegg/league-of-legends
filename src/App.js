@@ -68,7 +68,9 @@ function App() {
               <AddChampions />
             </>
           }/>
-          <Route path="/dwgskins" element={<DWGSkins />} />
+          <Route path="/dwgskins" element={
+            <DWGSkins />
+          } />
           <Route path="*" element={<NotFound />} /> 
         </Routes>
         <Footer />
