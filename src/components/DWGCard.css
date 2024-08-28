@@ -1,3 +1,4 @@
+
 .DWG-card {
     background-color: rgb(9,20,40);
     border: 4px solid rgb(10, 200, 185);
@@ -14,12 +15,12 @@
     box-shadow: 0 0 20em 0 rgb(10, 200, 185);
   }
   
-  .DWG-card-front-img {
+  .DWG-front-img {
     height: 100%;
     width: 100%;
   }
   
-  .DWG-card-back-img{
+  .DWG-back-img{
     height: 100%;
     width: 100%;
   }
