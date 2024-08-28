@@ -3,8 +3,8 @@ import Home from './components/Home';
 import Header from './components/Header';
 import ChampionsList from './components/ChampionsList';
 import MyChampions from './components/MyChampions';
-import AddChampions from './components/NewChampion';
-import Skins from './components/DamwonSkins';
+import AddChampions from './components/AddChampion';
+import DWGSkins from './components/DWGSkins';
 import Footer from './components/Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -67,7 +67,7 @@ function App() {
               <AddChampions />
             </>
           }/>
-          <Route path="/dwgskins" element={<Skins />} />
+          <Route path="/dwgskins" element={<DWGSkins />} />
         </Routes>
         <Footer />
       </div>

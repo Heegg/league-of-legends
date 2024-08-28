@@ -1,0 +1,25 @@
+.DWG-card {
+    background-color: rgb(9,20,40);
+    border: 4px solid rgb(10, 200, 185);
+    text-align: center;
+    float: left;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    width: 380px;
+  }
+  
+  .DWG-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20em 0 rgb(10, 200, 185);
+  }
+  
+  .DWG-card-front-img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .DWG-card-back-img{
+    height: 100%;
+    width: 100%;
+  }
