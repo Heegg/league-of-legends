@@ -5,6 +5,7 @@ import ChampionsList from './components/ChampionsList';
 import MyChampions from './components/MyChampions';
 import AddChampions from './components/AddChampion';
 import DWGSkins from './components/DWGSkins';
+import NotFound from './components/NotFound';
 import Footer from './components/Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -68,6 +69,7 @@ function App() {
             </>
           }/>
           <Route path="/dwgskins" element={<DWGSkins />} />
+          <Route path="*" element={<NotFound />} /> 
         </Routes>
         <Footer />
       </div>
