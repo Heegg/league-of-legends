@@ -29,7 +29,8 @@ const DWGSkins = () => {
         <img src={logoDWGold} className='DWGoldLogo' alt=''/>}
       </p>  
       <hr/>
-        <b><h1>Damwon Gaming 2020 Worlds Skins</h1></b>
+        <b><h3>Damwon Gaming Worlds Skins</h3></b>
+        <p>Click the card view more descriptions</p>
       <hr/>
       <div className='DWGCardLists'>
         {DWGInfosCard}

@@ -8,6 +8,8 @@
 
  ## Resources
 
+[League of Legends Champions from MIT © Nicolas Gryman](https://github.com/ngryman/lol-champions)
+
 
  ## Getting Started with Create React App
 
