@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/league-of-legends/static/css/main.e0aa227a.css",
-    "main.js": "/league-of-legends/static/js/main.11dfdc89.js",
+    "main.js": "/league-of-legends/static/js/main.2d10d915.js",
     "static/js/453.5291366f.chunk.js": "/league-of-legends/static/js/453.5291366f.chunk.js",
     "static/media/slogan.png": "/league-of-legends/static/media/slogan.90dc8b8c4bf563c66368.png",
     "static/media/logoDWGold.png": "/league-of-legends/static/media/logoDWGold.bbce0827f79c095047fc.png",
@@ -19,11 +19,11 @@
     "static/media/Kennen.png": "/league-of-legends/static/media/Kennen.a2a3cc18b67eec07e128.png",
     "index.html": "/league-of-legends/index.html",
     "main.e0aa227a.css.map": "/league-of-legends/static/css/main.e0aa227a.css.map",
-    "main.11dfdc89.js.map": "/league-of-legends/static/js/main.11dfdc89.js.map",
+    "main.2d10d915.js.map": "/league-of-legends/static/js/main.2d10d915.js.map",
     "453.5291366f.chunk.js.map": "/league-of-legends/static/js/453.5291366f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0aa227a.css",
-    "static/js/main.11dfdc89.js"
+    "static/js/main.2d10d915.js"
   ]
 }
