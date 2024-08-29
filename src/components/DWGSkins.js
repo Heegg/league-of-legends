@@ -2,10 +2,11 @@ import React from 'react'
 import { useState } from 'react'
 import DWGInfos from './DWGInfos'
 import DWGCard from './DWGCard'
-import './DWGSkins.css'
 
 import logoDWPurple from '../logos/logoDWPurple.png'
 import logoDWGold from '../logos/logoDWGold.png'
+import './DWGSkins.css'
+
 
 const DWGSkins = () => {
 
@@ -30,7 +31,7 @@ const DWGSkins = () => {
       </p>  
       <hr/>
         <b><h3>Damwon Gaming Worlds Skins</h3></b>
-        <p>Click the card view more descriptions</p>
+        <p>Click the card to see the skins</p>
       <hr/>
       <div className='DWGCardLists'>
         {DWGInfosCard}

@@ -1,4 +1,6 @@
 import React from 'react'
+import './ChampionsList.css'
+
 
 const ChampionsList = () => {
   return (

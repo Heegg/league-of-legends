@@ -1,4 +1,5 @@
 import React from 'react'
+import './AddChampions.css'
 
 const AddChampions = () => {
   return (
