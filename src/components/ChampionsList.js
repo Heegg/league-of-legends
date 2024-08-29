@@ -9,12 +9,10 @@ const ChampionsList = ({ champions }) => {
     return <ChampionsCard 
               key={champion.id} 
               champion={champion} 
-              />})
+/>})
 
   return (
-    <div>
-      ChampionsList
-      <h1>All Champions</h1>
+    <div className="champions-list">
       {championsCard}
     </div>
   )

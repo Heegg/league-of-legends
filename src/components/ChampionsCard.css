@@ -1,0 +1,16 @@
+.champions-card {
+    background-color: rgb(9,20,40);
+    box-shadow: 0 0 8px rgb(30, 40, 45);
+    width: 200px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    float: left;
+    border: 2px solid rgb(200, 170, 110);
+}
+
+.champions-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(240, 230, 210);
+  }

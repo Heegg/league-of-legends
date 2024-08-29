@@ -36,7 +36,7 @@ const ChampionsCard = ({ champion }) => {
   }
 
   return (
-    <div>
+    <div className='champions-card'>
       <div onClick={toggleCardChampion}>
         {showInfoChampion ? <Front icon={champion.icon} name={champion.name} /> : 
                             <Back champion={champion} />} 
