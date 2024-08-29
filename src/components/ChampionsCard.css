@@ -14,3 +14,24 @@
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(240, 230, 210);
   }
+
+.emoji-button{
+ border: none;
+ background: none;
+ float: left;
+ cursor: pointer;
+ }
+  
+.emoji-button:hover {
+  transform: scale(1.40);
+}
+  
+.emoji-button.like {
+   color: gold;
+  cursor: pointer;
+}
+  
+.emoji-button.unlike {
+ color: transparent;
+  text-shadow: 0 0 0 rgb(171, 171, 171);
+ }
