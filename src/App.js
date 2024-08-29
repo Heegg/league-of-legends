@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import Home from './components/Home';
 import Header from './components/Header';
 import ChampionsList from './components/ChampionsList';
@@ -15,6 +16,25 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+
+  const url = 'http://localhost:3000/champions';
+  
+  const [champions, setChampions] = useState([]);
+
+  const fetchData = async() => {
+    try {
+      const resp = await fetch(url);
+      const champions = await resp.json();
+      setChampions(champions);
+    } catch (err) {
+        alert(err.message);
+    }
+  }
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
 
   return (
     <Router>
@@ -54,7 +74,7 @@ function App() {
           <Route path="/champions" element={
             <>
               <Header/>
-              <ChampionsList />
+              <ChampionsList champions={champions}/>
             </>
           }/>
           <Route path="/mychampions" element={
