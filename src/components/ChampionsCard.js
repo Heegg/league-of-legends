@@ -21,7 +21,7 @@ const Back = ({ champion }) => {
         <img className="championCard-back-img" src={champion.icon} alt={"champion name"}/>
         <h3>{champion.name}</h3>
         <p>"{champion.title}"</p>
-        <p className="taglist">{tagsList}</p>
+        <div className="taglist">{tagsList}</div>
         <p><b>Description:</b><br/>{champion.description}</p>
       </div>
     )

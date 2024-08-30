@@ -13,6 +13,7 @@ const ChampionsList = ({ champions }) => {
 
   return (
     <div className="champions-list">
+      <h3 className='instruction'>Click ⭐️ to add champions to My Champions list!</h3>
       {championsCard}
     </div>
   )

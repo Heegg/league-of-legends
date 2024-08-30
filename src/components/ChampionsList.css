@@ -4,3 +4,9 @@
     height: 100vh;
     width: 100vw;
 }
+
+.instruction{
+    background-color: rgb(9,20,40);
+    text-decoration: aqua;
+    text-align: center;
+}

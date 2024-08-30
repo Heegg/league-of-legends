@@ -80,7 +80,7 @@ function App() {
           <Route path="/mychampions" element={
             <>
               <Header/>
-              <MyChampions />
+              <MyChampions champions={champions} setChampions={setChampions}/>
             </>
           }/>
           <Route path="/addchampions" element={
