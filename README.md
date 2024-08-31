@@ -10,6 +10,9 @@
 
 [League of Legends Champions from MIT © Nicolas Gryman](https://github.com/ngryman/lol-champions)
 
+[League of Legends Logos](https://brand.riotgames.com/en-us/league-of-legends/logos)
+
+[League of Legends Color](https://brand.riotgames.com/en-us/league-of-legends/color/)
 
  ## Getting Started with Create React App
 

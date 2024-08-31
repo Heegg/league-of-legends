@@ -28,6 +28,7 @@ function App() {
       const resp = await fetch(url);
       const champions = await resp.json();
       setChampions(champions);
+      setSearchFiltered(champions);
     } catch (err) {
         alert(err.message);
     }
@@ -83,7 +84,7 @@ function App() {
             <>
               <Header/>
               <ChampionsFilter handleSearch={handleSearch}/>
-              <ChampionsList champions={champions}/>
+              <ChampionsList champions={searchFiltered}/>
             </>
           }/>
           <Route path="/mychampions" element={
