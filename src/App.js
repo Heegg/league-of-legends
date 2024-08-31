@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Home from './components/Home';
 import Header from './components/Header';
 import ChampionsList from './components/ChampionsList';
+import ChampionsFilter from './components/ChampionsFilter';
 import MyChampions from './components/MyChampions';
 import AddChampions from './components/AddChampion';
 import DWGSkins from './components/DWGSkins';
@@ -20,6 +21,7 @@ function App() {
   const url = 'http://localhost:3000/champions';
   
   const [champions, setChampions] = useState([]);
+  const [searchFiltered, setSearchFiltered] = useState(champions);
 
   const fetchData = async() => {
     try {
@@ -34,6 +36,12 @@ function App() {
   useEffect(() => {
     fetchData();
   }, []);
+
+  const handleSearch = (searchValue) => {
+    const searchFiltered = champions.filter(champion => 
+      champion.name.toLowerCase().includes(searchValue.toLowerCase()));
+    setSearchFiltered(searchFiltered);
+  }
 
 
   return (
@@ -74,6 +82,7 @@ function App() {
           <Route path="/champions" element={
             <>
               <Header/>
+              <ChampionsFilter handleSearch={handleSearch}/>
               <ChampionsList champions={champions}/>
             </>
           }/>
