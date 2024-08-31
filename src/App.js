@@ -67,7 +67,8 @@ function App() {
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                 <Nav.Link as={Link} to="/champions">Champions</Nav.Link>
                 <Nav.Link as={Link} to="/mychampions">My Champions</Nav.Link>
-                <Nav.Link as={Link} to="/addchampions">Add Champions</Nav.Link>
+                <Nav.Link eventKey="disabled" disabled>Add Champions</Nav.Link>
+                {/* <Nav.Link as={Link} to="/addchampions">Add Champions</Nav.Link> */}
                 <Nav.Link as={Link} to="/dwgskins">DWG Skins</Nav.Link>
               </Nav>
             </Navbar.Collapse>

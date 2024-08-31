@@ -4,6 +4,13 @@
 
  ## Technologies
 
+* HTML / CSS
+* JavaScript(ES6+)
+* JSON
+* React
+* React Router DOM
+* REST API
+
  ## Installation 
 
  ## Resources
