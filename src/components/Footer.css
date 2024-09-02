@@ -1,18 +1,20 @@
 .footer {
-    background-color: rgb(9,20,40);
-    padding: 1em;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    border-top: 1px solid grey; 
-  }
+  background-color: rgb(9,20,40);
+  padding: 1em;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid grey; 
+}
   
-  .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.footer-content {
+
+  max-width: 1200px;
+  margin: 0 auto;
+  /* position: absolute; */
+}
   
-  .footer p {
-    color: white;
-  }
+.footer p {
+  color: white;
+}

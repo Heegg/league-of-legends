@@ -21,4 +21,7 @@
 
 .DWGCardLists {
     /* background-image: url('../logos/backgroundMission.png');  */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

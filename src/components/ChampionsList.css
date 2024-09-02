@@ -1,12 +1,15 @@
 
 .champions-list {
     background-color: rgb(9,20,40);
+    color: #C8AA6E;
     height: 100vh;
     width: 100vw;
+
 }
 
 .instruction{
     background-color: rgb(9,20,40);
-    text-decoration: aqua;
+    color: #785A28;
     text-align: center;
+    padding-top: 20px;
 }

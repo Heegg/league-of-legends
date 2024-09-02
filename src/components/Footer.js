@@ -5,11 +5,11 @@ const Footer = () => {
   const year = new Date().getFullYear(); 
 
   return (
-    <footer className="footer">
+    <div className="footer">
       <div className="footer-content">
         <p>&copy; {year} League of Legends Fan Page</p>
       </div>
-    </footer>
+    </div>
   );
 };
 
