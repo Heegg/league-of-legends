@@ -8,6 +8,7 @@
     cursor: pointer;
     float: left;
     border: 2px solid rgb(200, 170, 110);
+    color: #C8AA6E;
 }
 
 .champions-card:hover {

@@ -29,10 +29,10 @@ const DWGSkins = () => {
         {flipDWLogo ? <img src={logoDWPurple} className='DWPurpleLogo' alt=''/> : 
         <img src={logoDWGold} className='DWGoldLogo' alt=''/>}
       </p>  
-      <hr/>
-        <b><h3>Damwon Gaming Worlds Skins</h3></b>
+
+        <b><h4>Damwon Gaming Worlds Skins</h4></b>
         <p>Click the card to see the skins</p>
-      <hr/>
+
       <div className='DWGCardLists'>
         {DWGInfosCard}
       </div>

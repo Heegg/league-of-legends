@@ -740,7 +740,8 @@
         "x": 384,
         "y": 48
       },
-      "description": "From the moment Cho'Gath first emerged into the harsh light of Runeterra's sun, the beast was driven by the most pure and insatiable hunger. A perfect expression of the Void's desire to consume all life, Cho'Gath's complex biology quickly converts..."
+      "description": "From the moment Cho'Gath first emerged into the harsh light of Runeterra's sun, the beast was driven by the most pure and insatiable hunger. A perfect expression of the Void's desire to consume all life, Cho'Gath's complex biology quickly converts...",
+      "favorite": false
     },
     {
       "id": "corki",
@@ -5668,7 +5669,7 @@
         "y": 96
       },
       "description": "A magical cat from Bandle City, Yuumi was once the familiar of a yordle enchantress, Norra. When her master mysteriously disappeared, Yuumi became the Keeper of Norra's sentient Book of Thresholds, traveling through portals in its pages to search for...",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "zac",

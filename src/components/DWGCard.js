@@ -21,10 +21,10 @@ const Front = ({ DWGInfo }) => {
   const Back = ({ DWGInfo }) => {
     return (
       <div>
-        <h1><b>{DWGInfo.playerName}</b></h1>
-        <h3>{DWGInfo.lane}</h3>
+        <h4><b>{DWGInfo.playerName}</b></h4>
+        <p>{DWGInfo.lane}</p>
         <img src={DWGInfo.frontpng} alt={`${DWGInfo.backname} front`} className='DWG-front-img'/>
-        <h3>{DWGInfo.backname}</h3>
+        <h5>{DWGInfo.backname}</h5>
       </div>
     )
   }
