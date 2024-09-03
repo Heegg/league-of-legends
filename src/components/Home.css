@@ -6,3 +6,9 @@
     text-align: center;
 }
 
+.home video {
+    width: 60%; 
+    border: 2px solid #F0E6D2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #C8AA6E;
+  }
